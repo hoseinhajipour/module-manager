@@ -1,21 +1,24 @@
-module-manager
+<b>module-manager</b>
 
 
-module for laravel nwidart connect voyager admin panel
+module for laravel nwidart connect voyager admin panel 
+<hr/>
 
-step 01 : clone this project in your project
-step 02 : composer require zanysoft/laravel-zip
-
-
-After updating composer, add the ServiceProvider to the providers array in config/app.php
-
-ZanySoft\Zip\ZipServiceProvider::class,
-You can optionally use the facade for shorter code. Add this to your facades:
-
-'Zip' => ZanySoft\Zip\ZipFacade::class,
+step 01 : clone this project in your project <br/>
+step 02 : composer require zanysoft/laravel-zip <br/>
 
 
-step 03 : composer update
+After updating composer, add the ServiceProvider to the providers array in config/app.php<br/>
 
-step 04 : php artisan module:seed ModuleManager
+ZanySoft\Zip\ZipServiceProvider::class, <br/>
+
+You can optionally use the facade for shorter code. Add this to your facades: <br/>
+
+'Zip' => ZanySoft\Zip\ZipFacade::class,<br/>
+
+step 04 : php artisan module:seed ModuleManager  <br/>
+
+step 03 : composer update 
+
+
 
